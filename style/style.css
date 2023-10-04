@@ -25,7 +25,7 @@ ul {
 }
 .text-paragraf1 {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     width: 100%;
     text-align: center;
 }
@@ -33,7 +33,14 @@ ul {
     color: #FED71B;
 }
  
+.image-laptop1 {
+    position: relative;
+    width: 350px;
+    top: -10px;
+}
+
 .image-laptop {
+    display: none;
     position: relative;
     width: 350px;
     margin-top: 30px;
@@ -62,6 +69,11 @@ ul {
     width: 100%;
     z-index: -15;
 }
+.text-j {
+    width: 100%;
+    font-size: 26px;
+    line-height: 30px;
+}
 .about {
     position: absolute;
     display: flex;
@@ -79,8 +91,10 @@ ul {
 }
 
 .text-about {
+    margin-top: 10px;
     font-size: 30px;
     font-weight: bold;
+    line-height: 35px;
 
 }
 .container {
@@ -129,6 +143,10 @@ ul {
 
 .jumbotron {
     top: 80em;
+}
+
+.text-about-p {
+    margin-top: 10px;
 }
 
 /* responsive tablet  */
@@ -266,21 +284,31 @@ ul {
     
     
 }
-
 /* akhir responsive tablet */
+
+
 
 /* responsive desktop */
 @media only screen and (min-width: 768px) {
 
     
-
+    .text-j {
+        width: 100%;
+        font-size: 35px;
+        line-height: 45px;
+    }
     .jumbotron {
         top: 60em;
     }
-
+    .break {
+        display: none;
+    }
 
     ul {
         margin-left: 300px;
+    }
+    .logo-brand1 {
+        display: none;
     }
     .logo-brand {
         margin-left: 100px;
@@ -295,7 +323,7 @@ ul {
         height: 1.5%;
     }
     .content-1 {
-        margin-top: 150px;
+        margin-top: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -305,7 +333,11 @@ ul {
     .text-paragraf1 {
         text-align: left;
     }
+    .image-laptop1 {
+        display: none;
+    }
     .image-laptop {
+        display: block;
         width: 18em;
     }
     .bt-explore1 {
@@ -322,6 +354,7 @@ ul {
     .container-form1 {
         position: relative;
         margin-left: 80px;
+        margin-top: -80px;
     }
     .container-waves {
         position: relative;
