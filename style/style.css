@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+nav {
+    background-color: black;
+}
+ul {
+    display: flex;
+    position: relative;
+    padding: 30px;
+}
+
+.content-1 {
+    position: relative;
+    z-index: -100;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0;
+    font-size: 35px;
+    
+}
+.text-paragraf1 {
+    font-weight: normal;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+.text-brand {
+    color: #FED71B;
+}
+ 
+.image-laptop {
+    position: relative;
+    width: 350px;
+    margin-top: 30px;
+}
+.bt-explore1 {
+    border-radius: 10px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    border: none;
+    background: rgb(255,251,0);
+    background: linear-gradient(90deg, rgba(255,251,0,1) 0%, rgba(254,149,0,1) 100%);
+}
+.container-waves {
+    position: relative;
+    top: 600px;
+    width:100%;
+    z-index: -10;
+}
+.container-waves2 {
+    position: absolute;
+    top: 590px;
+    width: 100%;
+    z-index: -15;
+}
+.about {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 100% ;
+    margin: 10px;
+    text-align: center;
+    z-index: 10;
+
+}
+.about > .line {
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 5px;
+}
+
+.text-about {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.container {
+    background-color: white;
+    position: absolute;
+    top: 680px;
+    min-width: 100%;
+    height: 100%;
+    z-index: -15;
+}
+.object-class {
+    max-width: 70%;
+    width: 100%     ;
+    height: 100%;
+}
+.line {
+    position: relative;
+    left: 25%;
+    background-color: black;
+    width: 50%;
+    height: 5px;
+
+}
+
+
+
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.splash-screen img {
+    width: 200px;
+    height: 200px;
+}
+
+.jumbotron {
+    top: 80em;
+}
+
+/* responsive tablet  */
+@media only screen and (min-width: 600px) {
+
+    nav {
+        background-color: black;
+    }
+    ul {
+        display: flex;
+        position: relative;
+        padding: 30px;
+    }
+    
+    .content-1 {
+        position: relative;
+        z-index: -100;
+        margin-top: 100px;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 0;
+        font-size: 35px;
+        
+    }
+    .text-paragraf1 {
+        font-weight: normal;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .text-brand {
+        color: #FED71B;
+    }
+     
+    .image-laptop {
+        position: relative;
+        width: 350px;
+        margin-top: 30px;
+    }
+    .bt-explore1 {
+        border-radius: 10px;
+        font-size: 20px;
+        width: 200px;
+        height: 50px;
+        font-weight: bold;
+        margin-top: 30px;
+        border: none;
+        background: rgb(255,251,0);
+        background: linear-gradient(90deg, rgba(255,251,0,1) 0%, rgba(254,149,0,1) 100%);
+    }
+    /* .container-waves {
+        position: relative;
+        top: 550px;
+        width:100%;
+        z-index: -10;
+    }
+    .container-waves2 {
+        position: absolute;
+        top: 540px;
+        width: 100%;
+        z-index: -15;
+    } */
+    .about {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 115% ;
+        margin: 10px;
+        text-align: center;
+        z-index: 10;
+    
+    }
+    .about > .line {
+        background-color: rgb(0, 0, 0);
+        width: 150px;
+        height: 5px;
+    }
+    
+    .text-about {
+        font-size: 30px;
+        font-weight: bold;
+    
+    }
+    .container {
+        background-color: white;
+        position: absolute;
+        top: 660px;
+        min-width: 100%;
+        height: 100%;
+        z-index: -15;
+    }
+    .object-class {
+        max-width: 70%;
+        width: 100%     ;
+        height: 100%;
+    }
+    .line {
+        position: relative;
+        left: 25%;
+        background-color: black;
+        width: 50%;
+        height: 5px;
+    
+    }
+    
+    
+    
+    
+    
+    /* element gerak circle */
+    .circle1 {
+        
+    }
+    
+    
+    .splash-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #212121;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        opacity: 1;
+        transition: opacity 1s ease;
+    }
+    
+    .splash-screen img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    
+}
+
+/* akhir responsive tablet */
+
+/* responsive desktop */
+@media only screen and (min-width: 768px) {
+
+    
+
+    .jumbotron {
+        top: 60em;
+    }
+
+
+    ul {
+        margin-left: 300px;
+    }
+    .logo-brand {
+        margin-left: 100px;
+    }
+    li {
+        margin: 10px;
+    }
+    .line {
+        position: relative;
+        background-color: black;
+        width: 50%;
+        height: 1.5%;
+    }
+    .content-1 {
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin-left: 50px;
+    }
+    .text-paragraf1 {
+        text-align: left;
+    }
+    .image-laptop {
+        width: 18em;
+    }
+    .bt-explore1 {
+        border-radius: 10px;
+        font-size: 20px;
+        width: 200px;
+        height: 50px;
+        font-weight: bold;
+        margin-top: 30px;
+        border: none;
+        background: rgb(255,251,0);
+    background: linear-gradient(90deg, rgba(255,251,0,1) 0%, rgba(254,149,0,1) 100%);       
+    }
+    .container-form1 {
+        position: relative;
+        margin-left: 80px;
+    }
+    .container-waves {
+        position: relative;
+        top: 520px;
+        width: 100%;
+        z-index: -10;
+    }
+    .container-waves2 {
+        position: absolute;
+        top: 510px;
+        width: 100%;
+        z-index: -15;
+    }
+
+    .about {
+        position: absolute;
+        left: 100px;
+        text-align: left;
+        flex-direction: row;
+        top: 120%;
+        z-index: 10;
+
+    }
+  
+    .text-about {
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 45px;
+
+    }
+    .container {
+        display: flex;
+        background-color: white;
+        position: absolute;
+        top: 800px;
+        min-width: 100%;
+        height: 500px;
+        z-index: -20;
+    }
+    .text-about-p {
+        margin-top:10px;
+        width: 500px;
+        color: rgb(96, 96, 96);
+    }
+    .content-active {
+        display: block;
+        background-color: white;
+        width: 100px;
+        height: 10px;
+    }
+    .object-class {
+        max-width: 70%;
+        margin-left: 100px;
+    }
+    .line {
+        left: 0;
+    }
+ 
+}
+/* akhir responsive desktop */
+
+

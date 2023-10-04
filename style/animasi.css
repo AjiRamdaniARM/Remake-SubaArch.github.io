@@ -1,0 +1,6 @@
+.bt-explore1:hover {
+    animation-duration: 20s;
+    background: rgb(254,149,0);
+    background: linear-gradient(90deg, rgba(254,149,0,1) 0%, rgba(255,251,0,1) 100%);
+}
+
