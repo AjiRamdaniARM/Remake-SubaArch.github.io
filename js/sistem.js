@@ -11,3 +11,15 @@ function fadeOutSplashScreen() {
       splashScreen.style.display = "none"; 
   }, 1000); 
 }
+
+function play() {
+
+}
+
+function pause() {
+
+}
+
+function minimize() {
+  
+}

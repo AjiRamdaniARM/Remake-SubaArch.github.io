@@ -1,147 +1,182 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700;900&display=swap");
 
 .body {
-  background-color:black ;
+  background-color: black;
 }
 ul {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .explore {
-    background: rgb(255,251,0);
-    background: linear-gradient(90deg, rgba(255,251,0,1) 0%, rgba(254,149,0,1) 100%);
-    border: none;
-    border-radius: 25px;
-    font-family: 'roboto', sans-serif;
-    font-weight: bold;
+  background: rgb(255, 251, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 251, 0, 1) 0%,
+    rgba(254, 149, 0, 1) 100%
+  );
+  border: none;
+  border-radius: 25px;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
 }
 .desk-about {
-    color: rgb(124, 124, 124);
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
+  color: rgb(124, 124, 124);
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
 }
 #ct {
-    border-radius: 10px;
-    backdrop-filter: blur(14px); 
-    background-color: rgba(255, 255, 255, 0.2); 
-    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+  border-radius: 10px;
+  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
 }
 
 #ct1 {
-    backdrop-filter: blur(14px); 
-    background-color: rgb(255, 255, 255); 
-    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+  backdrop-filter: blur(14px);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
 }
+#ct2 {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+}
+
 .text-fo {
-   position: relative;
-   padding: 10px;
+  position: relative;
+  padding: 10px;
 }
 .desk {
-    font-family: 'Montserrar', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .text-1 {
-    font-family: 'Roboto',sans-serif;
-    font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
 .w {
-    font-size: 20px;
-    margin: 20px;
-  }
+  font-size: 20px;
+  margin: 20px;
+}
 
-  .video-yt {
-    width: 100%;
-    max-width: 550px;
-    box-shadow: 6px 6px 10px hsl(206.5, 0%, 75%);
-
-  }
-  .style-yt {
-    position: relative;
-    padding-bottom: 56.15%;
-    height: 0;
-    overflow: hidden;
-  }
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-  }
-  .card-1 {
-    text-align: left;
-    position: relative;
-    width: 100%;
-    height: 100%;  
-    border-style: outset;
-    border-color: gray;
-    border-radius: 20px;
-
-  }
-  .active-card-1 {
-    text-align: left;
-    position: relative;
-    width: 100%;
-    height: 100%;  
-    border-style: outset;
-    border-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px #000;
-  }
-  .isi-1 > h2 {
-    font-family: 'Roboto',sans-serif;
-    font-weight: bold;
-    position: relative;
-    margin: 48px;
-    font-size: 30px;
-    
-  }
-  .list-card li {
-    margin-top: 10px;
-    font-size: 15px;
-    list-style: none;
-  }
-  .active-card > h2 {
-    color: white;
-  }
-  .active-card {
-    background: rgb(255,193,0);
-    background: linear-gradient(90deg, rgba(255,193,0,1) 0%, rgba(247,187,0,1) 100%);
-  }
-  .non-active {
-    color: #FED71B;
-  }
-  .active-p {
-    color: black;
-  }
-  .non-active-p {
-    color: white;
-  }
-   .bt-1  {
-    background-color: #FED71B;
-    width: 90%;
-    font-family: 'Roboto',sans-serif;
-    font-weight: bold;
-    height: 50px;
-    border: none;
-    border-radius: 10px;
-
-  }
-  .bt-1-active {
-    background-color: white;
-    width: 90%;
-    font-family: 'Roboto',sans-serif;
-    font-weight: bold;
-    height: 50px;
-    border: none;
-    border-radius: 10px;
-  }
-  .dv {
-    background-color: #FED71B;
-    height: 100%;
-    text-align: center;
-    width: 120%;
-    border-radius: 10px;
-    position: relative;
-    top: 56px;
-    right: 15px;
-  }
+.video-yt {
+  width: 100%;
+  max-width: 550px;
+  box-shadow: 6px 6px 10px hsl(206.5, 0%, 75%);
+}
+.style-yt {
+  position: relative;
+  padding-bottom: 56.15%;
+  height: 0;
+  overflow: hidden;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.card-1 {
+  text-align: left;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-style: outset;
+  border-color: gray;
+  border-radius: 20px;
+}
+.active-card-1 {
+  text-align: left;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-style: outset;
+  border-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #000;
+}
+.isi-1 > h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 48px;
+  font-size: 30px;
+}
+.list-card li {
+  margin-top: 10px;
+  font-size: 15px;
+  list-style: none;
+}
+.active-card > h2 {
+  color: white;
+}
+.active-card {
+  background: rgb(255, 193, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 193, 0, 1) 0%,
+    rgba(247, 187, 0, 1) 100%
+  );
+}
+.non-active {
+  color: #fed71b;
+}
+.active-p {
+  color: black;
+}
+.non-active-p {
+  color: white;
+}
+.bt-1 {
+  background-color: #fed71b;
+  width: 90%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+}
+.bt-1-active {
+  background-color: white;
+  width: 90%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+}
+.bt2 {
+  font-weight: bold;
+  font-family: 'Montserrat',sans-serif;
+  max-width: 300px;
+  height: 50px;
+  border: none;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #fed71b;
+}
+.dv {
+  background-color: #fed71b;
+  height: 100%;
+  text-align: center;
+  width: 120%;
+  border-radius: 10px;
+  position: relative;
+  top: 56px;
+  right: 15px;
+}
+.bt-2 {
+  position: relative;
+  top: -10px;
+  border-radius: 5px;
+  background-color: #fed71b;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  max-width: 300px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+}
