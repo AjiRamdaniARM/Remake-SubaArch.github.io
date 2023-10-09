@@ -18,6 +18,17 @@
     .size-f {
         font-size: 20px;
     }
+    .bulat {
+        left: -400px;
+    }
+    .bulat1 {
+        top: 950px;
+        left: 230px;
+    }
+    .bulat2 {
+        top: 100em;
+        left: 230px;
+    }
 }
    
 
@@ -42,6 +53,9 @@
     }
     .size-f {
         font-size: 20px;
+    }
+    .bulat {
+        left: -100px;
     }
 }
 
@@ -79,6 +93,17 @@
         position: relative;
         top: auto;
         bottom: -55px;
+    }
+    .bulat {
+        top: -250px;
+    }
+    .bulat1 {
+        top: 800px;
+        left: 60em;
+    }
+    .bulat2 {
+        top: 80em;
+        left: 230px;
     }
 
 }

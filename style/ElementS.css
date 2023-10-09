@@ -147,14 +147,19 @@ iframe {
   border-radius: 10px;
 }
 .bt2 {
-  font-weight: bold;
-  font-family: 'Montserrat',sans-serif;
-  max-width: 300px;
-  height: 50px;
-  border: none;
-  width: 100%;
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
   border-radius: 15px;
-  background-color: #fed71b;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 }
 .dv {
   background-color: #fed71b;
@@ -169,14 +174,79 @@ iframe {
 .bt-2 {
   position: relative;
   top: -10px;
+  padding: 0.75rem 1.25rem;
   border-radius: 5px;
   background-color: #fed71b;
-  font-weight: bold;
   font-family: "Roboto", sans-serif;
   border: none;
+  transition: all 0.3s;
+  overflow: hidden;
   max-width: 300px;
   text-align: center;
   width: 100%;
   height: 100%;
   max-height: 300px;
+}
+.bt2::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fed71b;
+  border-radius: 15px;
+  z-index: -2;
+}
+.bt2::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #a66700;
+  transition: all 0.3s;
+  border-radius: 15px;
+  z-index: -1;
+}
+.bt2:hover {
+  color: #fff;
+}
+.bt2:hover:before {
+  width: 100%;
+}
+
+.bulat {
+  position: absolute;
+  z-index: -10;
+  width: 500px;
+  opacity: 200%;
+  height: 500px;
+  border-radius: 100%;
+  background-color: #fed71b;
+  filter: blur(100px);
+
+}
+.bulat1 {
+  position: absolute;
+  z-index: -10;
+  width: 100px;
+  opacity: 100%;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #fed71b;
+  filter: blur(50px);
+
+}
+.bulat2 {
+  position: absolute;
+  z-index: -10;
+  width: 200px;
+  opacity: 200%;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #fed71b;
+  filter: blur(100px);
+
 }
