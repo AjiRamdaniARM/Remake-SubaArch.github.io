@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700;900&display=swap");
-
+@font-face {
+  font-family: 'Hanson';
+  src: url("../font/hanson.ttf");
+}
 html {
   scroll-behavior: smooth;
   scroll-padding-top: var(scroll-padding, 50px);
@@ -252,4 +255,27 @@ iframe {
   border-radius: 100%;
   background-color: #fed71b;
   filter: blur(100px);
+}
+.text-bg-1 {
+  position: absolute;
+
+  font-family: 'Hanson',sans-serif;
+  color: white;
+  font-weight: bold;
+  z-index: -10;
+}
+.text-bg-2 {
+  position: absolute;
+  font-family: 'Hanson',sans-serif;
+  color: white;
+  font-weight: bold;
+  z-index: -10;
+}
+.text-bg-3 {
+  position: absolute;
+ 
+  font-family: 'Hanson',sans-serif;
+  color: white;
+  font-weight: bold;
+  z-index: -10;
 }
