@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700;900&display=swap");
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(scroll-padding, 50px);
+}
 .body {
   background-color: black;
 }
@@ -248,5 +252,4 @@ iframe {
   border-radius: 100%;
   background-color: #fed71b;
   filter: blur(100px);
-
 }

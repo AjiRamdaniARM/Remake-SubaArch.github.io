@@ -1,25 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
-      fadeOutSplashScreen();
-  }, 2000); 
+    fadeOutSplashScreen();
+  }, 2000);
 });
 
 function fadeOutSplashScreen() {
   var splashScreen = document.querySelector(".splash-screen");
   splashScreen.style.opacity = "0";
   setTimeout(function () {
-      splashScreen.style.display = "none"; 
-  }, 1000); 
-}
-
-function play() {
-
-}
-
-function pause() {
-
-}
-
-function minimize() {
-  
+    splashScreen.style.display = "none";
+  }, 1000);
 }
